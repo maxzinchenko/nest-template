@@ -9,7 +9,7 @@ describe('StatusController', () => {
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       controllers: [StatusController],
-      providers: [StatusService],
+      providers: [StatusService]
     }).compile();
 
     controller = module.get<StatusController>(StatusController);
